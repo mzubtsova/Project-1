@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+  /* 1 rem = 20px */
+  font-size: 125%;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 69px;
+  font-weight: 600;
+}
+
+h2, h3, h4 {
+  font-size: 45px;
+  line-height: 99.8px;
+}
+
+h5 {
+  font-size: 40px;
+  line-height: 58px;
+  letter-spacing: 1.3px;
+}
+
+h6 {
+  font-size: 25px;
+  line-height: 58px;
+  letter-spacing: 0.8px;
+}
+
+button {
+  font-size: 22.4px;
+  text-align: center;
+  line-height: 41.6px;
+  padding: 2px 3px 2px 3px;
+  border-color: #ffd300;
+}
+
+.nav ul li a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
