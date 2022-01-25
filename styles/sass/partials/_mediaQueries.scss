@@ -1,0 +1,109 @@
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .navigation nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  .navigation nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    top: 54px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 9999;
+  }
+  .navigation nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media (max-width: 870px){
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item {
+      flex: 50%;
+    }
+    .giftContainer {
+      background-color: #2b331b;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .nature {
+      padding: 50px 10px;
+      background-color: #2b331b;
+    }
+    .natureImgContainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .infoContainer {
+      background-color: #2b331b;
+      padding: 190px 30px 80px 30px;
+    }
+    .nature .textContainer {
+      width: 100%;
+      padding: 40px 20px;
+    }
+    .nature .textContainer h3 {
+      font-size: 45px;
+      line-height: 67.8px;
+      text-transform: uppercase;
+      color: #ffd300;
+    }
+    .giftContainer h3 {
+      font-size: 45px;
+      line-height: 60px;
+      text-transform: uppercase;
+      color: #ffd300;
+      padding-top: 50px;
+    }
+    .foodContainer .descriptionContainer {
+      text-align: left;
+      width: 100%;
+      padding: 50px 20px;
+    }
+    .headerImgContainer img {
+      width: 100%;
+      height: 350px;
+    }
+    .headerImgSecond img {
+      position: absolute;
+      right: 0px;
+      top: 350px;
+      width: 728px;
+    }
+    .products h2 {
+      color: #fff;
+      font-size: 38px;
+     line-height: 96px;
+    }
+    .foodSecond {
+      padding-top: 5px;
+    }
+    .headerImage h1{
+      font-size: 50px;
+      color: #fff;
+    }
+}
