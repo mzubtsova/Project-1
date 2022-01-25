@@ -531,6 +531,7 @@ label.logo {
 .foodContainer .descriptionContainer h5 {
   text-transform: uppercase;
   color: #fff;
+  font-weight: bold;
 }
 .foodContainer .descriptionContainer p {
   margin-left: 35px;
@@ -647,9 +648,10 @@ label.logo {
 }
 
 .natureImgContainer img {
-  width: 1000px;
+  width: 2000px;
   -webkit-box-shadow: -20px 20px 0px 0px #ffd300;
           box-shadow: -20px 20px 0px 0px #ffd300;
+  padding-top: 25px;
 }
 
 .nature .flexContainer .flexItem {
@@ -683,7 +685,7 @@ footer p {
 /* Gallery section */
 .gallery {
   background-color: #171b09;
-  padding: 50px 20px;
+  padding: 50px 80px;
 }
 
 .galleryImage {
