@@ -123,6 +123,7 @@ width: 80%;
 text-align: right;
 padding-top: 10px;
 width: 80%;
+
 h5{
   text-transform: uppercase;
   color: #fff;
@@ -138,6 +139,7 @@ p{
   padding-left: 20%;
   padding-top: 50px;
   width: 100%;
+
   p{
     margin: 0 35px 0 0;
   }
@@ -276,4 +278,46 @@ footer {
   }
 }
 
+
+// BLOG HTML styles start here
+.blogSection{
+  background-color: #2b331b;
+  .blogRow{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .leftColumn{
+  
+    max-width: 66%;
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .column{
+  max-width: 50%;
+  }
+}
+
+.blogCard img{
+  width: 100%;
+  padding-top:100px;
+}
+.content {
+  padding: 30px 20px;
+  h6{
+    text-transform: uppercase;
+    color: #ffd300;
+  }
+  p{
+    color: #fff;
+  }
+}
+
+.rightColumn {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  .rightImg{
+  width: 100%;
+  }
+}
 

@@ -350,19 +350,12 @@ label.logo {
 .navigation nav ul li a.active {
   border-bottom: 2px solid #ffd300;
   border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
 }
 
-.navigation nav ul li a:hover {
+.navigation nav ul li a:hover,
+.navigation nav ul li a:focus {
   border-bottom: 2px solid #ffd300;
   border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
 }
 
 .checkbtn {
@@ -407,10 +400,6 @@ label.logo {
   color: #000;
   background-color: #ffd300;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .flexContainer {
@@ -419,8 +408,8 @@ label.logo {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100%;
 }
 
@@ -474,8 +463,8 @@ label.logo {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .foodImgContainer img {
@@ -547,10 +536,6 @@ label.logo {
   margin: 0 35px 0 0;
 }
 
-/* .foodContainer .descriptionContainer p {
-  margin-right: 130px;
-  padding-bottom: 25px;
-} */
 .leftButton {
   margin-left: 360px;
 }
@@ -602,11 +587,6 @@ label.logo {
   font-size: 55px;
   color: #fff;
   text-transform: uppercase;
-  transform: translate(-10%, 10%);
-  -webkit-transform: translate(-10%, 10%);
-  -moz-transform: translate(-10%, 10%);
-  -ms-transform: translate(-10%, 10%);
-  -o-transform: translate(-10%, 10%);
 }
 
 .headerImage h1 span {
@@ -622,11 +602,8 @@ label.logo {
   position: absolute;
   top: 50%;
   right: 2%;
-  transform: translate(-2%, -50%);
   -webkit-transform: translate(-2%, -50%);
-  -moz-transform: translate(-2%, -50%);
-  -ms-transform: translate(-2%, -50%);
-  -o-transform: translate(-2%, -50%);
+          transform: translate(-2%, -50%);
 }
 
 /* navbar */
@@ -674,14 +651,6 @@ label.logo {
   color: white;
 }
 
-footer {
-  background-color: #0F0F0F;
-}
-footer p {
-  text-align: center;
-  color: white;
-}
-
 /* Gallery section */
 .gallery {
   background-color: #171b09;
@@ -711,6 +680,63 @@ footer p {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
+}
+
+footer {
+  background-color: #0F0F0F;
+}
+footer p {
+  text-align: center;
+  color: white;
+}
+
+.blogSection {
+  background-color: #2b331b;
+}
+.blogSection .blogRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blogSection .leftColumn {
+  max-width: 66%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blogSection .column {
+  max-width: 50%;
+}
+
+.blogCard img {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.content {
+  padding: 30px 20px;
+}
+.content h6 {
+  text-transform: uppercase;
+  color: #ffd300;
+}
+.content p {
+  color: #fff;
+}
+
+.rightColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.rightColumn .rightImg {
+  width: 100%;
 }
 
 @media (max-width: 952px) {

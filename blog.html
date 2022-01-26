@@ -5,12 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog page</title>
-</head>
-<body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+      <!-- Navigation starts -->
+    <section class="navigation">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="headerImage">
+        <div class="social">
+            <div class="headerContent">
+            </div>
+        </div>
+        <div class="headerImgContainer">
+            <img src="./assets/blog-header.jpg" alt="Red neon sign 'Eat'">
+        </div>
+        <h1>Blog</h1>
+    </div>
+    </section><!-- END of navigation -->
+
+    <!-- blogFoodContainer left side  starts -->
+    <section class="blogSection" id="blogSection">
+        <div class="blogRow">
+            <div class="leftColumn">
+                <div class="column">
+                    <div class="blogCard">
+                        <img src="./assets/blog-side-image.jpg" alt="Dish with fish and vegetables with sauce">
+                        <div class="content">
+                            <h6>Featured restaurants</h6>
+                            <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
+                            <h6>Recent posts</h6>
+                            <p>Donec facilisis tortor ut</p>
+                            <p>Augue lacinia at viverra</p>
+                            <p>Semper sed sapien metus</p>
+                            <p>Scelerisque nec pharetra id</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="rightColumn">
+                    <div class="rightImg">
+                        <img src="./assets/blog-post-image.jpg" alt="The waiter sets the table in the restaurant before the arrival of guests">
+                        <div class="content">
+                            <h3>Employment opportunities</h3>
+                            <p class="date">Monday October 30, 2019 by Sulaire</p>
+                            <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Name tempus vel odio vitae aliquam.
+                            </p>
+                            <p>In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat. Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut egat imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat egat sempar id, viverra eget semper id, viverra eget nibh. Suspendisse consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit.</p>
+                            <p>Psaesence facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis tincidunt turpis sed dui aliquam vehicula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+        <section class="comments" id="comments">
+            <div class="wrapper">
+                <h5>comments:</h5>
+                <div class="faceContainer">
+                    <img src="./assets/comment-1.jpg" alt="Profile photo">
+                </div>
+
+        
+                <div class="commentContainer">
+                    <p class="postDate">Tuesday October 9th, 2019 by Ali</p>
+                    <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. Maecenas eu varius risus.</p>
+                </div>
+            </div>
+            <div class="faceContainer">
+                <img src="./assets/comment-2.jpg" alt="Profile photo">
+            </div>
+            <!--END imgContainer-->
+            
+            <div class="commentContainer">
+                <p class="postDate">Wednesday October 10th, 2019 by Lisa</p>
+                <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.</p>
+            </div>
+            </div>
+                <!--END .wrapper-->
+
+        </section>
+
+        <section class="forms" id="forms">
+            <form>
+                <div class="nameFlex">
+                    <div class="nameContainer">
+                        <label class="contact" for="userName">Name</label>
+                        <input class="data" type="text" id="userName" name="userName">
+            
+                    </div>
+                    <div class="emailContainer">
+            
+                        <label class="contact" for="userEmail">Email adress</label>
+                        <input class="email" type="email" id="userEmail" name="userEmail">
+                    </div>
+                </div>
+                <div class="messageContainer">
+                    <label class="contact" for="userMessage">Message</label>
+                    <textarea class="message" id="userMessage" name="userMessage">
+                    </textarea>
+                </div>
+                <button class="postButton" type="submit">post comment</button>
+            
+            </form>
+        </section>
+
+        <footer>
+            <p>Copyright &#9400 2019 Juno College</p>
+        </footer>
+
 </body>
 </html>
