@@ -33,18 +33,12 @@ padding-left: 6%;
 .navigation nav ul li a.active{ 
   border-bottom: 2px solid #ffd300; 
   border-radius: 0px; 
-  -webkit-border-radius: 0px; 
-  -moz-border-radius: 0px; 
-  -ms-border-radius: 0px; 
-  -o-border-radius: 0px;
 }
-.navigation nav ul li a:hover{ 
+.navigation nav ul li a:hover,
+.navigation nav ul li a:focus
+{ 
   border-bottom: 2px solid #ffd300; 
   border-radius: 0px; 
-  -webkit-border-radius: 0px; 
-  -moz-border-radius: 0px; 
-  -ms-border-radius: 0px; 
-  -o-border-radius: 0px;
 }
 .checkbtn{
   font-size: 30px;

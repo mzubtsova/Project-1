@@ -1,7 +1,5 @@
 
 
-
-
 .headerImgContainer {
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,19 +26,11 @@
   color: #000;
   background-color: #ffd300;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  
 }
 .flexContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 100%;
 }
 
@@ -88,13 +78,8 @@
 }
 
 .foodContainer .positioning {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .foodImgContainer img {
@@ -113,14 +98,14 @@ margin-right: 0px;
 text-align: end;
 }
 .rightImg{
-  position: relative;
+position: relative;
 margin-right: 0px;
 text-align: end;
 }
 .rightImg img{
-  margin-bottom: -50px;
-  box-shadow: -20px 20px 0px 0px #ffd300;
-  width: 80%;
+margin-bottom: -50px;
+box-shadow: -20px 20px 0px 0px #ffd300;
+width: 80%;
 }
 
 .foodContainer {
@@ -130,7 +115,7 @@ text-align: end;
   padding-top: 80px;
 }
 .foodContainer .descriptionContainer {
-  text-align: right;
+text-align: right;
 padding-top: 10px;
 width: 80%;
 }
@@ -157,10 +142,6 @@ p{
     margin: 0 35px 0 0;
   }
 }
-/* .foodContainer .descriptionContainer p {
-  margin-right: 130px;
-  padding-bottom: 25px;
-} */
 
 .leftButton {
   margin-left: 360px;
@@ -199,8 +180,6 @@ p{
 /* Navbar */
 
 
-
-
 .headerImage{
   width: 100%;
   height: 100vh;
@@ -214,11 +193,6 @@ p{
   font-size: 55px; 
   color: #fff; 
   text-transform: uppercase;
-  transform: translate(-10%,10%); 
-  -webkit-transform: translate(-10%,10%); 
-  -moz-transform: translate(-10%,10%); 
-  -ms-transform: translate(-10%,10%); 
-  -o-transform: translate(-10%,10%);
 }
 
 .headerImage h1 span {
@@ -234,10 +208,6 @@ position: absolute;
 top: 50%;
 right: 2%;
 transform: translate(-2%,-50%);
--webkit-transform: translate(-2%,-50%);
--moz-transform: translate(-2%,-50%);
--ms-transform: translate(-2%,-50%);
--o-transform: translate(-2%,-50%);
 }
 /* navbar */
 /* banner image */
@@ -277,15 +247,6 @@ transform: translate(-2%,-50%);
   }
 }
 
-
-footer {
-  background-color: #0F0F0F;
-  p{
-    text-align: center;
-    color: white;
-  }
-}
-
 /* Gallery section */
 .gallery{
   background-color: #171b09;
@@ -305,3 +266,14 @@ footer {
 .flexItem {
   flex: 50%;
 }
+
+
+footer {
+  background-color: #0F0F0F;
+  p{
+    text-align: center;
+    color: white;
+  }
+}
+
+
