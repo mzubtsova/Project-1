@@ -29,6 +29,7 @@ img {
 
 .wrapper {
   max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -577,8 +578,8 @@ label.logo {
 
 .headerImage h1 {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 20%;
+  left: 7%;
   font-size: 55px;
   color: #fff;
   text-transform: uppercase;
@@ -610,40 +611,39 @@ label.logo {
 
 .bannerContainer img {
   width: 100%;
+}
+
+.nature .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.natureImgContainer {
+  width: 35%;
+}
+.natureImgContainer img {
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
 }
 
-/* nature section */
 .nature {
-  padding: 90px 90px;
+  padding: 90px 0 90px 0;
   background-color: #2b331b;
 }
-
-.natureImgContainer img {
-  width: 2000px;
-  -webkit-box-shadow: -20px 20px 0px 0px #ffd300;
-          box-shadow: -20px 20px 0px 0px #ffd300;
-  padding-top: 25px;
+.nature .natureTextContainer {
+  width: 65%;
 }
-
-.nature .flexContainer .flexItem {
-  -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
-}
-
-.nature .textContainer {
-  padding-left: 35px;
-  width: 100%;
-}
-.nature .textContainer h3 {
+.nature .natureTextContainer h3 {
   font-size: 45px;
   line-height: 99.8px;
   text-transform: uppercase;
   color: #ffd300;
-}
-.nature .textContainer p {
-  color: white;
 }
 
 /* Gallery section */
@@ -685,53 +685,269 @@ footer p {
   color: white;
 }
 
-.blogSection {
-  background-color: #2b331b;
+.blogImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.blogSection .blogRow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.blogSection .leftColumn {
-  max-width: 66%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.blogSection .column {
-  max-width: 50%;
-}
-
-.blogCard img {
+.blogImg img {
   width: 100%;
-  padding-top: 100px;
+  height: 100vh;
 }
 
-.content {
-  padding: 30px 20px;
+.middleSection {
+  background-color: #2B331B;
 }
-.content h6 {
-  text-transform: uppercase;
+
+/* Flex container */
+.blogFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blogFlexItem {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.flexTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flexTop .oneItem {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+}
+
+.flexTop .twoItem {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+}
+
+/* Left side */
+.leftSide {
+  padding-top: 20px;
+  padding-right: 18%;
+  position: relative;
+}
+
+.blogSide img {
+  position: absolute;
+  width: 78%;
+  height: 400px;
+  z-index: 2;
+}
+
+.leftContent {
+  background-color: #171B0E;
+  padding-top: 405px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 100%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  position: relative;
+  text-align: left;
+}
+
+.leftContent h6 {
   color: #ffd300;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.content p {
+
+.extraSpace {
+  padding-bottom: 40px;
+}
+
+.leftContent p {
   color: #fff;
 }
 
-.rightColumn {
+.leftContent ul li {
+  color: #fff;
+}
+
+/* right Side */
+.blogImage {
+  padding-left: 20px;
+}
+
+.blogImage img {
+  margin-top: -250px;
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: -20px 20px 0px 0px #ffd300;
+          box-shadow: -20px 20px 0px 0px #ffd300;
+}
+
+.employContent {
+  padding: 60px 60px;
+  border-left: 4px solid #ffd300;
+  border-bottom: 4px solid #ffd300;
+}
+.employContent h4 {
+  color: #ffd300;
+  text-transform: uppercase;
+}
+.employContent p {
+  color: #fff;
+}
+
+.date {
+  color: #fff;
+  margin: 10px 0 30px 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* comment */
+.comment {
+  padding: 20px 60px;
+}
+.comment h5 {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+.commentContent .commentDate {
+  color: #ffd300;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.commentContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-.rightColumn .rightImg {
   width: 100%;
+}
+
+.secondComment {
+  margin-top: 40px;
+}
+
+.commentImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.commentContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.commentImage img {
+  width: 70px;
+  height: 70px;
+}
+
+.commentContent p {
+  color: #ffffff;
+}
+
+/* comment input */
+.commentInput {
+  padding: 80px 40px;
+}
+
+.commentInput .blogFlexContainer .blogFlexItem input {
+  background-color: transparent;
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ffd300;
+}
+
+.commentInput .blogFlexContainer .blogFlexItem label {
+  padding: 0 10px;
+  border: none;
+}
+
+.commentTextarea label {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.commentTextarea textarea {
+  position: relative;
+  height: 250px;
+  margin-top: 25px;
+  background-color: transparent;
+  width: 90%;
+  padding: 20px 0px 10px 20px;
+  border: 2px solid #ffd300;
+  font-family: "Barlow", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+label {
+  color: #fff;
+}
+
+.commentBtn {
+  text-align: center;
+}
+
+.commentInput button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 90%;
+  padding: 15px 8px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  background-color: #ffd300;
+  color: #000;
 }
 
 @media (max-width: 952px) {

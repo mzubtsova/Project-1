@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog page</title>
+    <script src="https://kit.fontawesome.com/23031be945.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap"
@@ -31,7 +32,7 @@
             <div class="headerContent">
             </div>
         </div>
-        <div class="headerImgContainer">
+        <div class="blogImg">
             <img src="./assets/blog-header.jpg" alt="Red neon sign 'Eat'">
         </div>
         <h1 class="blogHeader">Blog</h1>
@@ -47,14 +48,12 @@
                         </div>
                         <div class="leftContent">
                             <h6>featured restaurants</h6>
-                            <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
+                            <p class="extraSpace">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum. Find out more.</p>
                             <h6>recent posts</h6>
-                            <ul>
-                                <li>Donec facilisis tortor ut</li>
-                                <li>Augue lacinia at viverra</li>
-                                <li>Semper sed sapien metus</li>
-                                <li>Scelerisque nec pharetra id</li>
-                            </ul>
+                            <p>Onec facilisis tortor ut</p>
+                            <p>Augue lacinia at viverra</p>
+                            <p>Semper sed sapien metus</p>
+                            <p>Scelerisque nec pharetra id</p>
                         </div>
                     </div>
                 </div>
@@ -88,10 +87,10 @@
                         </div>
                         <div class='commentContainer secondComment'>
                             <div class='commentImage'>
-                                <img src="./comment-2.jpg" alt="comment-1">
+                                <img src="./assets/comment-2.jpg" alt="Profile photo of the commenter"">
                             </div>
                             <div class='commentContent'>
-                                <p class="commentDate">Wednesday October 10th,b2019 by Lisa</p>
+                                <p class="commentDate">Wednesday October 10th, 2019 by Lisa</p>
                                 <p>Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.</p>
                             </div>
                         </div>
@@ -99,14 +98,20 @@
                     <div class="commentInput">
                         <div class="blogFlexContainer">
                             <div class="blogFlexItem">
-                                <input type="text" placeholder="Name">
+
+                                <label for="userName">Name</label>
+                                <input type="text" id="userName" name="userName">
+
                             </div>
                             <div class="blogFlexItem">
-                                <input type="text" placeholder="Email address">
+                                <label for="userEmail">Email address</label>
+                                <input type="email" id="userEmail" name="userEmail">
+                             
                             </div>
                         </div>
                         <div class="commentTextarea">
-                            <textarea placeholder="Comment"></textarea>
+                            <label for="feedback">Comment</label>
+                            <textarea name="userFeedback" id="feedback"></textarea>
                             <button class="postComment" type="submit">POST COMMENT</button>
                         </div>
         
