@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <script src="https://kit.fontawesome.com/23031be945.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Josefin+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation starts -->
+    <section class="navigation">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="headerImage">
+            <div class="social">
+                <div class="headerContent">
+                </div>
+            </div>
+            <div class="blogImg">
+                <img src="./assets/contact-header.jpg" alt="Chef preparing food in the restaurant kitchen">
+            </div>
+            <h1 class="blogHeader">Blog</h1>
+        </div>
+        </section><!-- END of navigation -->
+        <section class="contactSection" id="contactSection">
+            <div class="wrapper">
+                <div class="contactMainContent">
+                    <div class="contactLeftContent">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                        <div class="contactContent">
+                            <p>info@mail.ru</p>
+                            <br>
+                            <p>123 Queen Street West, Unit 10</p>
+                            <p>Toronto, Ontario</p>
+                            <p>M5V2D5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactRightContent">
+                    <div class="commentInput">
+                        <div class="blogFlexContainer">
+                            <div class="blogFlexItem">
+                    
+                                <label for="userName">Name</label>
+                                <input type="text" id="userName" name="userName">
+                    
+                            </div>
+                            <div class="blogFlexItem">
+                                <label for="userEmail">Email address</label>
+                                <input type="email" id="userEmail" name="userEmail">
+                    
+                            </div>
+                        </div>
+                        <div class="commentTextarea">
+                            <label for="feedback">Comment</label>
+                            <textarea name="userFeedback" id="feedback"></textarea>
+                            <button class="postComment" type="submit">POST COMMENT</button>
+                        </div>
+                    
+                    </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &#9400 2019 Juno College</p>
+        </footer>
+    
+</body>
+</html>
