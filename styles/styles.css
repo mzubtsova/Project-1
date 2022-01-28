@@ -508,12 +508,6 @@ label.logo {
   padding-top: 10px;
   width: 80%;
 }
-
-.foodContainer .descriptionContainer {
-  text-align: right;
-  padding-top: 10px;
-  width: 80%;
-}
 .foodContainer .descriptionContainer h5 {
   text-transform: uppercase;
   color: #fff;
@@ -521,6 +515,12 @@ label.logo {
 }
 .foodContainer .descriptionContainer p {
   margin-left: 35px;
+}
+.foodContainer .descriptionContainer button:hover,
+.foodContainer .descriptionContainer button:focus {
+  border: 3px solid #fff;
+  -webkit-transform: 2s ease;
+          transform: 2s ease;
 }
 
 .rightDescription .descriptionContainer {
@@ -568,6 +568,12 @@ label.logo {
   margin-top: 45px;
   padding: 3px 10px 3px 10px;
   border-color: #0F0F0F;
+}
+.blackButton:hover {
+  border: 3px solid #fff;
+}
+.blackButton:focus {
+  border: 3px solid #fff;
 }
 
 /* Navbar */
@@ -776,6 +782,13 @@ footer p {
   color: #ffd300;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.postComment:hover,
+.postComment:focus {
+  border: 3px solid #fff;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
 }
 
 .extraSpace {
@@ -992,6 +1005,12 @@ label {
   background-color: transparent;
   padding: 7px;
 }
+.contactSocial a:hover {
+  color: #fff;
+}
+.contactSocial a:focus {
+  color: #fff;
+}
 
 .contactContent {
   padding: 130px 0 0 20px;
@@ -1062,6 +1081,20 @@ label {
   background-color: #ffd300;
   color: #000;
   text-align: center;
+}
+.contactComment:hover {
+  border: 3px solid #fff;
+  background-color: #ffd300;
+  color: #0F0F0F;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+.contactComment:focus {
+  border: 3px solid #fff;
+  background-color: #ffd300;
+  color: #0F0F0F;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
 }
 
 @media (max-width: 952px) {

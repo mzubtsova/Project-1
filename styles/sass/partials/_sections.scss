@@ -132,11 +132,7 @@ width: 90%;
 .foodSecond{
   padding-top: 80px;
 }
-.foodContainer .descriptionContainer {
-text-align: right;
-padding-top: 10px;
-width: 80%;
-}
+
 .foodContainer .descriptionContainer {
 text-align: right;
 padding-top: 10px;
@@ -150,8 +146,13 @@ h5{
 p{
   margin-left: 35px;
 }
+button:hover,
+button:focus{
+border: 3px solid #fff;
+transform: 2s ease;
 }
 
+}
 .rightDescription .descriptionContainer{
   text-align: left;
   padding-left: 20%;
@@ -196,6 +197,12 @@ p{
   margin-top: 45px;
   padding: 3px 10px 3px 10px;
   border-color: #0F0F0F;
+  &:hover {
+        border: 3px solid #fff;
+    }
+    &:focus {
+        border: 3px solid #fff;
+    }
 }
 /* Navbar */
 
@@ -367,6 +374,11 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     
+}
+.postComment:hover,
+ .postComment:focus{
+  border: 3px solid #fff;
+  transition: 2s ease;
 }
 .extraSpace{
   padding-bottom: 40px;
@@ -542,6 +554,12 @@ label{
     font-size: 25px;
     background-color: transparent;
     padding: 7px;
+    &:hover {
+        color: #fff;
+    }
+    &:focus {
+        color: #fff;
+    }
   }
 
 }
@@ -612,4 +630,18 @@ label{
     background-color: #ffd300;
     color: #000;
     text-align: center;
+    &:hover {
+        border: 3px solid #fff;
+        background-color: #ffd300;
+        color: #0F0F0F;
+        transition: 2s ease;
+    }
+    &:focus {
+        border: 3px solid #fff;
+        background-color: #ffd300;
+        color: #0F0F0F;
+        transition: 2s ease;
+    }
+
 }
+
