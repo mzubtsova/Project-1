@@ -423,6 +423,9 @@ label.logo {
   margin-right: 30px;
   margin-bottom: 50px;
 }
+.infoContainer .products p {
+  padding-left: 60px;
+}
 
 .infoContainer h2 {
   font-size: 45px;
@@ -433,7 +436,6 @@ label.logo {
 .foodContainer {
   background-color: #171b09;
   color: #fff;
-  position: relative;
 }
 .foodContainer h5 {
   text-transform: uppercase;
@@ -453,14 +455,13 @@ label.logo {
   margin: 30px 4px 4px 4px;
 }
 
-.foodContainer .positioning {
+.foodContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .foodImgContainer img {
@@ -468,30 +469,30 @@ label.logo {
   height: 100%;
 }
 
-.leftImg img {
+.foodContainer .leftImg img {
   margin-top: -50px;
   -webkit-box-shadow: 20px 20px 0px 0px #ffd300;
           box-shadow: 20px 20px 0px 0px #ffd300;
-  width: 80%;
+  width: 90%;
+}
+
+.foodContainer .rightImg img {
+  margin-top: -50px;
+  margin-left: 70px;
+  width: 90%;
 }
 
 .rightDescription {
-  position: relative;
   margin-right: 0px;
-  text-align: end;
-}
-
-.rightImg {
-  position: relative;
-  right: 0;
   text-align: end;
 }
 
 .rightImg img {
   margin-bottom: -50px;
+  margin-top: -50px;
   -webkit-box-shadow: -20px 20px 0px 0px #ffd300;
           box-shadow: -20px 20px 0px 0px #ffd300;
-  width: 80%;
+  width: 90%;
 }
 
 .foodContainer {
@@ -645,6 +646,9 @@ label.logo {
   text-transform: uppercase;
   color: #ffd300;
 }
+.nature .natureTextContainer p {
+  color: #fff;
+}
 
 /* Gallery section */
 .gallery {
@@ -665,10 +669,13 @@ label.logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.burgerContainer {
+  padding-bottom: 130px;
 }
 
 .flexItem {
@@ -950,6 +957,102 @@ label {
   color: #000;
 }
 
+.contactMainContent .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 70px;
+}
+
+.contactMainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2b331b;
+}
+
+.contactSocial {
+  position: absolute;
+  padding: 100px 0 0 20px;
+}
+.contactSocial a {
+  color: #ffd300;
+  font-size: 25px;
+  background-color: transparent;
+  padding: 7px;
+}
+
+.contactContent {
+  padding: 160px 0 0 20px;
+  color: #fff;
+}
+
+.contactFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactCommentInput {
+  padding: 80px 50px;
+  background-color: #171b09;
+  -webkit-box-shadow: 17px 17px 0px 0px #ffd300;
+          box-shadow: 17px 17px 0px 0px #ffd300;
+}
+
+.contactCommentInput .contactFlexContainer .contactFlexItem input {
+  background-color: transparent;
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ffd300;
+}
+
+.contactCommentInput .contactFlexContainer .contactFlexItem label {
+  padding: 0 10px;
+  border: none;
+}
+
+.contactTextarea label {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.contactTextarea textarea {
+  position: relative;
+  height: 250px;
+  margin-top: 25px;
+  background-color: transparent;
+  width: 100%;
+  padding: 20px 0px 10px 20px;
+  border: 2px solid #ffd300;
+  font-family: "Barlow", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+label {
+  color: #fff;
+}
+
+.contactComment {
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 90%;
+  padding: 15px 8px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  background-color: #ffd300;
+  color: #000;
+  text-align: center;
+}
+
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
@@ -1084,8 +1187,52 @@ label {
     font-size: 50px;
     color: #fff;
   }
+
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .flex-item {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+
+  .blogImage img {
+    margin-top: 110px;
+  }
+
+  .flex-top .two-item {
+    padding: 0px 20px;
+  }
+
+  .leftSide {
+    padding-right: 8%;
+  }
+
+  .blogSide img {
+    width: 88%;
+  }
+
+  .commentContent {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+
+  .commentImage img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .employContent {
+    padding: 60px 20px;
+  }
 }
-@media (max-width: 770px) {
+@media (max-width: 760px) {
   .headerImgSecond img {
     position: absolute;
     width: 50%;
@@ -1105,26 +1252,22 @@ label {
   .foodImgContainer {
     width: 60%;
   }
-}
-.foodContainer {
-  position: relative;
-}
 
-.foodContainer .descriptionContainer p {
-  margin-left: 0;
-}
+  .foodContainer {
+    position: relative;
+  }
 
-.rightImg img {
-  position: relative;
-  right: 0;
-  bottom: 0;
-}
+  .foodContainer .descriptionContainer p {
+    margin-left: 0;
+  }
 
-.giftContainer p {
-  padding: 0 30px 0 30px;
-}
+  .rightImg img {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
 
-.natureImgContainer img {
-  width: 100%;
-  height: 500px;
+  .giftContainer p {
+    padding: 0 30px 0 30px;
+  }
 }

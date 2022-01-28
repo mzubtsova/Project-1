@@ -106,9 +106,40 @@
       font-size: 50px;
       color: #fff;
     }
+
+     .flex-container {
+      flex-direction: column;
+    }
+    .flex-item {
+        flex: 50%;
+    }
+    .blogImage img{
+        margin-top: 110px;
+    }
+    .flex-top .two-item{
+        padding: 0px 20px;
+    }
+    .leftSide{
+        padding-right: 8%;
+    }
+    .blogSide img{
+        width: 88%;
+    }
+    .commentContent{
+        flex: 3;
+    }
+    .commentImage img {
+        width: 80px;
+        height: 80px;
+      }
+      .employContent {
+        padding: 60px 20px;
+      }
+
+      
 }
 
-@media (max-width: 770px){
+@media (max-width: 760px){
   .headerImgSecond img{
     position: absolute;
     width: 50%;
@@ -125,9 +156,7 @@
   .foodImgContainer{
     width: 60%;
   }
-
-}
-.foodContainer {
+  .foodContainer {
   position: relative;
 }
 .foodContainer .descriptionContainer p{
@@ -142,7 +171,4 @@
   padding: 0 30px 0 30px;
 }
 
-.natureImgContainer img {
-  width: 100%;
-  height: 500px;
 }
