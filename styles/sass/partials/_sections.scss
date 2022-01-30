@@ -19,13 +19,13 @@
   width: 55%;
 }
 .products h2{
-  color: #fff;
+  color: $white;
 
   i{
   font-size: 25px;
   padding: 15px;
   color: #000;
-  background-color: #ffd300;
+  background-color: $sunflower;
   border-radius: 50%;
   }
 }
@@ -37,12 +37,12 @@
 }
 
 .infoContainer {
-  background-color: #2b331b;
+  background-color: $pine;
   padding-top: 170px;
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 150px;
-  color: white;
+  color: $white;
   .products{
     margin-right: 30px;
     margin-bottom: 50px;
@@ -62,9 +62,8 @@
 
 
 .foodContainer {
-  background-color: #171b09;
-  color: #fff;
-  // position: relative;
+  background-color: $dark;
+  color: $white;
   h5{
     text-transform: uppercase;
   }
@@ -79,7 +78,7 @@
   text-align: center;
   line-height: 41.6px;
   text-transform: uppercase;
-  background-color: #ffd300;
+  background-color: $sunflower;
   margin: 30px 4px 4px 4px;
   }
 }
@@ -98,35 +97,30 @@
 
 .foodContainer .leftImg img{
   margin-top: -50px;
-  box-shadow: 20px 20px 0px 0px #ffd300;
+  box-shadow: 20px 20px 0px 0px $sunflower;
   width: 90%;
 }
 
 .foodContainer .rightImg img{
   margin-top: -50px;
   margin-left: 70px;
-  // box-shadow:  #ffd300;
   width: 90%;
 }
 .rightDescription{
-// position: relative;
 margin-right: 0px;
 text-align: end;
 }
 
 .rightImg img{
 margin-bottom: -50px;
-// box-shadow: -20px 20px 0px 0px #ffd300;
-// width: 100%
 margin-top: -50px;
-// box-shadow: 20px 20px 0px 0px #ffd300;
-box-shadow: -20px 20px 0px 0px #ffd300;
+box-shadow: -20px 20px 0px 0px $sunflower;
 width: 90%;
 
 }
 
 .foodContainer {
-  background-color: #171b09;
+  background-color: $dark;
 }
 
 .foodSecond{
@@ -140,7 +134,7 @@ width: 80%;
 
 h5{
   text-transform: uppercase;
-  color: #fff;
+  color: $white;
   font-weight: bold;
 }
 p{
@@ -148,7 +142,7 @@ p{
 }
 button:hover,
 button:focus{
-border: 3px solid #fff;
+border: 3px solid $white;
 transform: 2s ease;
 }
 
@@ -169,7 +163,7 @@ transform: 2s ease;
 }
 
 .giftContainer {
-  background-color: #2b331b;
+  background-color: $pine;
   text-align: center;
   padding: 100px 200px 100px 200px;
 }
@@ -177,31 +171,31 @@ transform: 2s ease;
   font-size: 45px;
   line-height: 99.8px;
   text-transform: uppercase;
-  color: #ffd300;
+  color: $sunflower;
 }
 .giftContainer p {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 1px;
-  color: #fff;
+  color: $white;
 }
 
 .blackButton {
   font-size: 22.4px;
   text-align: center;
   line-height: 41.6px;
-  background-color: #0F0F0F;
-  color: #fff;
+  background-color: $black;
+  color: $white;
   text-transform: uppercase;
   margin-top: 45px;
   padding: 3px 10px 3px 10px;
-  border-color: #0F0F0F;
+  border-color: $black;
   &:hover {
-        border: 3px solid #fff;
+        border: 3px solid $white;
     }
     &:focus {
-        border: 3px solid #fff;
+        border: 3px solid $white;
     }
 }
 /* Navbar */
@@ -209,7 +203,7 @@ transform: 2s ease;
 .headerImage{
   width: 100%;
   height: 100vh;
-  background-color: #2b331b;
+  background-color: $pine;
 }
 
 .headerImage h1{ 
@@ -217,15 +211,15 @@ transform: 2s ease;
   top: 20%; 
   left: 7%; 
   font-size: 55px; 
-  color: #fff; 
+  color: $white; 
   text-transform: uppercase;
 }
 
 .headerImage h1 span {
-  color: black;
+  color: $black;
   display: block;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: $white;
   padding-top: 5px;
   margin-bottom: 5px;
 }
@@ -239,7 +233,7 @@ transform: translate(-2%,-50%);
 /* banner image */
 .bannerContainer{
   width: 100%;
-  background-color: #2b331b;
+  background-color: $pine;
 }
 .bannerContainer img{
   width: 100%;
@@ -253,14 +247,14 @@ transform: translate(-2%,-50%);
         img{
         width: 90%;
         height: 90%;
-        box-shadow: -20px 20px 0px 0px #ffd300;
+        box-shadow: -20px 20px 0px 0px $sunflower;
 
     }    
 }
  .nature{
      padding:90px 0 90px 0;
 
-     background-color: #2b331b;
+     background-color: $pine;
      .natureTextContainer{
          width: 65%;
          
@@ -268,10 +262,10 @@ transform: translate(-2%,-50%);
         font-size: 45px;
         line-height: 99.8px;
         text-transform: uppercase;
-        color: #ffd300;
+        color: $sunflower;
          }
          p{
-           color: #fff;
+           color: $white;
          }
         
      }
@@ -279,7 +273,7 @@ transform: translate(-2%,-50%);
 
 /* Gallery section */
 .gallery{
-  background-color: #171b09;
+  background-color: $dark;
   padding: 50px 80px;
 }
 .galleryImage{
@@ -301,10 +295,10 @@ transform: translate(-2%,-50%);
 }
 
 footer {
-  background-color: #0F0F0F;
+  background-color: $black;
   p{
     text-align: center;
-    color: white;
+    color: $white;
   }
 }
 
@@ -323,7 +317,7 @@ footer {
 }
 
 .middleSection{
-    background-color: #2B331B;
+    background-color: $pine;
 }
 /* Flex container */
 .blogFlexContainer {
@@ -357,7 +351,7 @@ footer {
     z-index: 2;
 }
 .leftContent{
-    background-color: #171B0E;
+    background-color: $dark;
     padding-top: 405px;
     padding-left: 20px;
     padding-right: 10px;
@@ -371,24 +365,24 @@ footer {
 
 }
 .leftContent h6{
-    color: #ffd300;
+    color: $sunflower;
     text-transform: uppercase;
     font-weight: bold;
     
 }
 .postComment:hover,
  .postComment:focus{
-  border: 3px solid #fff;
+  border: 3px solid $white;
   transition: 1s ease;
 }
 .extraSpace{
   padding-bottom: 40px;
 }
 .leftContent p{
-    color: #fff;
+    color: $white;
 }
 .leftContent ul li{
-    color: #fff;
+    color: $white;
 }
 /* right Side */
 .blogImage{
@@ -398,23 +392,23 @@ footer {
     margin-top: -250px;
     width: 100%;
     height: auto;
-    box-shadow: -20px 20px 0px 0px #ffd300;
+    box-shadow: -20px 20px 0px 0px $sunflower;
 }
 .employContent{
     padding: 60px 60px;
-    border-left: 4px solid #ffd300;
-    border-bottom: 4px solid #ffd300;
+    border-left: 4px solid $sunflower;
+    border-bottom: 4px solid $sunflower;
     h4{
-    color: #ffd300;
+    color: $sunflower;
     text-transform: uppercase;
     }
     p{
-      color: #fff;
+      color: $white;
     }
 }
 
 .date{
-  color: #fff;
+  color: $white;
   margin: 10px 0 30px 0;
   font-weight: bold;
   font-size: 22px;
@@ -424,12 +418,12 @@ footer {
     padding: 20px 60px;
     h5{
       text-transform: uppercase;
-      color: #fff;
+      color: $white;
       padding: 20px 0 20px 0;
     }
 }
 .commentContent .commentDate{
-  color: #ffd300;
+  color: $sunflower;
   font-weight: bold;
   font-size: 22px;
   padding-bottom: 5px;
@@ -463,7 +457,7 @@ footer {
 }
 
 .commentContent p{
-    color: #ffffff;
+    color: $white;
 }
 /* comment input */
 .commentInput{
@@ -475,8 +469,8 @@ footer {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid #ffd300;
-    color: #fff;
+    border-bottom: 2px solid $sunflower;
+    color: $white;
 }
 
 .commentInput .blogFlexContainer .blogFlexItem label{
@@ -498,7 +492,7 @@ footer {
     background-color: transparent;
     width: 90%;
     padding: 20px 0px 10px 20px;
-    border: 2px solid #ffd300;
+    border: 2px solid $sunflower;
     font-family: 'Barlow', sans-serif;
 }
 input:focus,
@@ -507,7 +501,7 @@ textarea:focus {
 }
 
 label{
-  color: #fff;
+  color: $white;
 }
 
 .commentBtn{
@@ -521,7 +515,7 @@ label{
     text-align: center;
     font-size: 16px;
     border: none;
-    background-color: #ffd300;
+    background-color: $sunflower;
     color: #000;
 }
 
@@ -534,7 +528,7 @@ label{
 }
 .contactMainContent{
   display: flex;
-  background-color: #2b331b;
+  background-color: $pine;
   padding-bottom: 150px;
 }
 
@@ -552,15 +546,15 @@ label{
   padding: 70px 0 0 20px;
 
   a{
-    color: #ffd300;
+    color: $sunflower;
     font-size: 25px;
     background-color: transparent;
     padding: 7px;
     &:hover {
-        color: #fff;
+        color: $white;
     }
     &:focus {
-        color: #fff;
+        color: $white;
     }
   }
 
@@ -568,7 +562,7 @@ label{
 
 .contactContent{
   padding: 130px 0 0 20px;
-  color: #fff;
+  color: $white;
 }
 
 .contactFlexContainer{
@@ -577,8 +571,8 @@ label{
 
 .contactCommentInput{
     padding: 65px 65px;
-    background-color: #171b09;
-    box-shadow: 17px 17px 0px 0px #ffd300;
+    background-color: $dark;
+    box-shadow: 17px 17px 0px 0px $sunflower;
 }
 .contactCommentInput .contactFlexContainer .contactFlexItem input{
     background-color: transparent;
@@ -586,8 +580,8 @@ label{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid #ffd300;
-    color: #fff;
+    border-bottom: 2px solid $sunflower;
+    color: $white;
 }
 
 .contactCommentInput .contactFlexContainer .contactFlexItem label{
@@ -608,8 +602,7 @@ label{
     margin-top: 25px;
     background-color: transparent;
     width: 100%;
-    // padding: 20px 0px 10px 20px;
-    border: 2px solid #ffd300;
+    border: 2px solid $sunflower;
     font-family: 'Barlow', sans-serif;
 }
 input:focus,
@@ -618,7 +611,7 @@ textarea:focus {
 }
 
 label{
-  color: #fff;
+  color: $white;
 }
 
 .contactComment{
@@ -629,21 +622,20 @@ label{
     text-align: center;
     font-size: 16px;
     border: none;
-    background-color: #ffd300;
+    background-color: $sunflower;
     color: #000;
     text-align: center;
     &:hover {
-        border: 3px solid #fff;
-        background-color: #ffd300;
-        color: #0F0F0F;
+        border: 3px solid $white;
+        background-color: $sunflower;
+        color: $black;
         transition: 1s ease;
     }
     &:focus {
-        border: 3px solid #fff;
-        background-color: #ffd300;
-        color: #0F0F0F;
+        border: 3px solid $white;
+        background-color: $sunflower;
+        color: $black;
         transition: 1s ease;
     }
-
 }
 
