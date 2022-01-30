@@ -491,3 +491,31 @@ contactSection .wrapper .contactLeftContent {
   width: 100%;
 }
 }
+@media (max-width: 460px){
+  .infoContainer .products{
+    text-align: left;
+  }
+  .rightDescription .descriptionContainer, 
+  .leftDescription .descriptionContainer{
+    text-align: left;
+  }
+  .giftContainer .wrapper{
+    text-align: left;
+    h3{
+      text-align: center;
+    }
+  }
+  .giftContainer p{
+    text-align: left;
+  }
+
+  .nature .wrapper .natureTextContainer {
+  width: 100%;
+  text-align: left;
+  padding-top: 70px;
+}
+.natureImgContainer img {
+  width: 100%;
+  height: 50vh;
+}
+}

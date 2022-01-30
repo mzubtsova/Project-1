@@ -1,5 +1,35 @@
 
 
+.headerImage{
+  width: 100%;
+  height: 100vh;
+  background-color: $pine;
+  h1{ 
+  position: absolute; 
+  top: 20%; 
+  left: 7%; 
+  font-size: 55px; 
+  color: $white; 
+  text-transform: uppercase;
+}
+}
+
+.headerImage h1 span {
+  color: $black;
+  display: block;
+  text-transform: uppercase;
+  background-color: $white;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.social{
+position: absolute;
+top: 50%;
+right: 2%;
+transform: translate(-2%,-50%);
+}
+
+
 .headerImgContainer {
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,8 +39,6 @@
   height: 100vh;
   }
 }
-
-
 
 .headerImgSecond img {
   position: absolute;
@@ -43,6 +71,9 @@
   padding-left: 100px;
   padding-bottom: 150px;
   color: $white;
+  h2{
+    text-transform: uppercase;
+  }
   .products{
     margin-right: 30px;
     margin-bottom: 50px;
@@ -50,28 +81,13 @@
       padding-left: 60px;
     }
   }
-
   }
-
-
-  .infoContainer h2{
-    font-size: 45px;
-    line-height: 99.8px;
-    text-transform: uppercase;
-  }
-
 
 .foodContainer {
   background-color: $dark;
   color: $white;
   h5{
     text-transform: uppercase;
-  }
-  p{
-  font-family: "Barlow", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 1px;
   }
   button{
   font-size: 22.4px;
@@ -87,6 +103,18 @@
 .foodContainer {
   display: flex;
   justify-content: space-between;
+  background-color: $dark;
+  
+  .leftImg img{
+  margin-top: -50px;
+  box-shadow: 20px 20px 0px 0px $sunflower;
+  width: 90%;
+}
+.rightImg img{
+  margin-top: -50px;
+  margin-left: 70px;
+  width: 90%;
+}
 }
 
 .foodImgContainer img {
@@ -95,17 +123,6 @@
 }
 
 
-.foodContainer .leftImg img{
-  margin-top: -50px;
-  box-shadow: 20px 20px 0px 0px $sunflower;
-  width: 90%;
-}
-
-.foodContainer .rightImg img{
-  margin-top: -50px;
-  margin-left: 70px;
-  width: 90%;
-}
 .rightDescription{
 margin-right: 0px;
 text-align: end;
@@ -119,9 +136,6 @@ width: 90%;
 
 }
 
-.foodContainer {
-  background-color: $dark;
-}
 
 .foodSecond{
   padding-top: 80px;
@@ -166,19 +180,19 @@ transform: 2s ease;
   background-color: $pine;
   text-align: center;
   padding: 100px 200px 100px 200px;
-}
-.giftContainer h3 {
+  h3 {
   font-size: 45px;
   line-height: 99.8px;
   text-transform: uppercase;
   color: $sunflower;
 }
-.giftContainer p {
+p {
   font-family: "Barlow", sans-serif;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 1px;
   color: $white;
+}
 }
 
 .blackButton {
@@ -198,38 +212,7 @@ transform: 2s ease;
         border: 3px solid $white;
     }
 }
-/* Navbar */
 
-.headerImage{
-  width: 100%;
-  height: 100vh;
-  background-color: $pine;
-}
-
-.headerImage h1{ 
-  position: absolute; 
-  top: 20%; 
-  left: 7%; 
-  font-size: 55px; 
-  color: $white; 
-  text-transform: uppercase;
-}
-
-.headerImage h1 span {
-  color: $black;
-  display: block;
-  text-transform: uppercase;
-  background-color: $white;
-  padding-top: 5px;
-  margin-bottom: 5px;
-}
-.social{
-position: absolute;
-top: 50%;
-right: 2%;
-transform: translate(-2%,-50%);
-}
-/* navbar */
 /* banner image */
 .bannerContainer{
   width: 100%;
