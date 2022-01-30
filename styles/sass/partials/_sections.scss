@@ -15,8 +15,8 @@
 .headerImgSecond img {
   position: absolute;
   right: 0px;
-  top: 35%;
-  width: 728px;
+  top: 30%;
+  width: 55%;
 }
 .products h2{
   color: #fff;
@@ -251,8 +251,9 @@ transform: translate(-2%,-50%);
 .natureImgContainer{
         width: 35%;
         img{
-        object-fit: cover;
-        height: 100%;
+        width: 90%;
+        height: 90%;
+        box-shadow: -20px 20px 0px 0px #ffd300;
 
     }    
 }
@@ -378,7 +379,7 @@ footer {
 .postComment:hover,
  .postComment:focus{
   border: 3px solid #fff;
-  transition: 2s ease;
+  transition: 1s ease;
 }
 .extraSpace{
   padding-bottom: 40px;
@@ -538,11 +539,12 @@ label{
 }
 
 .contactLeftContent{
-  padding-right: 40px;
+  width: 30%;
 }
 .contactRightContent{
+  width: 70%;
   margin-top: -160px;
-  margin-right: -50px;
+  padding-left: 20px;
 }
 
 .contactSocial{
@@ -574,7 +576,7 @@ label{
 }
 
 .contactCommentInput{
-    padding: 65px 85px;
+    padding: 65px 65px;
     background-color: #171b09;
     box-shadow: 17px 17px 0px 0px #ffd300;
 }
@@ -634,13 +636,13 @@ label{
         border: 3px solid #fff;
         background-color: #ffd300;
         color: #0F0F0F;
-        transition: 2s ease;
+        transition: 1s ease;
     }
     &:focus {
         border: 3px solid #fff;
         background-color: #ffd300;
         color: #0F0F0F;
-        transition: 2s ease;
+        transition: 1s ease;
     }
 
 }
