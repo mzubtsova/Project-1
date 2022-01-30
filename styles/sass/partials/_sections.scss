@@ -29,7 +29,6 @@ right: 2%;
 transform: translate(-2%,-50%);
 }
 
-
 .headerImgContainer {
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,6 +113,9 @@ transform: translate(-2%,-50%);
   margin-top: -50px;
   margin-left: 70px;
   width: 90%;
+  margin-bottom: -50px;
+  box-shadow: -20px 20px 0px 0px $sunflower;
+
 }
 }
 
@@ -126,14 +128,6 @@ transform: translate(-2%,-50%);
 .rightDescription{
 margin-right: 0px;
 text-align: end;
-}
-
-.rightImg img{
-margin-bottom: -50px;
-margin-top: -50px;
-box-shadow: -20px 20px 0px 0px $sunflower;
-width: 90%;
-
 }
 
 
@@ -213,14 +207,15 @@ p {
     }
 }
 
-/* banner image */
+
 .bannerContainer{
   width: 100%;
   background-color: $pine;
+  img{
+    width: 100%;
+  }
 }
-.bannerContainer img{
-  width: 100%;
-}
+
  .nature .wrapper{
      display: flex;
      flex-direction: row;
@@ -238,8 +233,8 @@ p {
      padding:90px 0 90px 0;
 
      background-color: $pine;
-     .natureTextContainer{
-         width: 65%;
+.natureTextContainer{
+     width: 65%;
          
         h3{
         font-size: 45px;
@@ -262,10 +257,11 @@ p {
 .galleryImage{
   text-align: center;
   padding: 20px;
+  img{
+    width: 100%;
+  }
 }
-.galleryImage img{
-  width: 100%;
-}
+
 .flexContainer {
   display: flex;
   justify-content: space-between;
@@ -286,9 +282,6 @@ footer {
 }
 
 
-// BLOG  styles start here
-
-
 .blogImg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -302,7 +295,7 @@ footer {
 .middleSection{
     background-color: $pine;
 }
-/* Flex container */
+
 .blogFlexContainer {
     display: flex;
     flex-direction: row;
@@ -320,7 +313,7 @@ footer {
 .flexTop .twoItem{
     flex: 60%;
 }
-/* Left side */
+
 .leftSide{
     padding-top: 20px;
     padding-right: 18%;
@@ -367,16 +360,18 @@ footer {
 .leftContent ul li{
     color: $white;
 }
-/* right Side */
+
+
 .blogImage{
     padding-left: 20px;
-}
-.blogImage img{
+   img{
     margin-top: -250px;
     width: 100%;
     height: auto;
     box-shadow: -20px 20px 0px 0px $sunflower;
 }
+}
+
 .employContent{
     padding: 60px 60px;
     border-left: 4px solid $sunflower;
@@ -442,7 +437,7 @@ footer {
 .commentContent p{
     color: $white;
 }
-/* comment input */
+
 .commentInput{
     padding: 80px 40px;
 }
