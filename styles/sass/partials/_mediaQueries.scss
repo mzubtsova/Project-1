@@ -492,6 +492,9 @@ contactSection .wrapper .contactLeftContent {
 }
 }
 @media (max-width: 460px){
+  .commentContent{
+    padding-left: 15px;
+  }
   .infoContainer .products{
     text-align: left;
   }
@@ -516,6 +519,10 @@ contactSection .wrapper .contactLeftContent {
   text-align: left;
   padding-top: 70px;
   padding-left: 0px;
+  h3{
+    padding: 0px;
+    text-align: left;
+  }
 }
 .natureImgContainer img {
   width: 100%;
@@ -524,5 +531,16 @@ contactSection .wrapper .contactLeftContent {
 .blogImg img {
   width: 100%;
   height: 65vh;
+}
+.employContent {
+  padding: 60px 40px;
+}
+.giftContainer .blackButton {
+  font-size: 18px;
+  text-align: center;
+}
+ .nature .wrapper .blackButton {
+  font-size: 18px;
+  text-align: center;
 }
 }

@@ -1634,6 +1634,10 @@ label {
   }
 }
 @media (max-width: 460px) {
+  .commentContent {
+    padding-left: 15px;
+  }
+
   .infoContainer .products {
     text-align: left;
   }
@@ -1662,6 +1666,10 @@ label {
     padding-top: 70px;
     padding-left: 0px;
   }
+  .nature .wrapper .natureTextContainer h3 {
+    padding: 0px;
+    text-align: left;
+  }
 
   .natureImgContainer img {
     width: 100%;
@@ -1671,5 +1679,19 @@ label {
   .blogImg img {
     width: 100%;
     height: 65vh;
+  }
+
+  .employContent {
+    padding: 60px 40px;
+  }
+
+  .giftContainer .blackButton {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .nature .wrapper .blackButton {
+    font-size: 18px;
+    text-align: center;
   }
 }
