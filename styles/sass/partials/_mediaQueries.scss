@@ -498,6 +498,7 @@ contactSection .wrapper .contactLeftContent {
   .rightDescription .descriptionContainer, 
   .leftDescription .descriptionContainer{
     text-align: left;
+    padding-left: 30px;
   }
   .giftContainer .wrapper{
     text-align: left;
@@ -507,15 +508,21 @@ contactSection .wrapper .contactLeftContent {
   }
   .giftContainer p{
     text-align: left;
+    padding-left: 0px;
   }
 
   .nature .wrapper .natureTextContainer {
   width: 100%;
   text-align: left;
   padding-top: 70px;
+  padding-left: 0px;
 }
 .natureImgContainer img {
   width: 100%;
   height: 50vh;
+}
+.blogImg img {
+  width: 100%;
+  height: 65vh;
 }
 }
