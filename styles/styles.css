@@ -1131,7 +1131,7 @@ label {
     margin-left: -50px;
   }
 }
-@media (max-width: 956px) {
+@media (max-width: 957px) {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
@@ -1144,7 +1144,7 @@ label {
   .headerImgSecond img {
     position: absolute;
     right: 0px;
-    top: 60%;
+    top: 50%;
     width: 55%;
   }
 }
@@ -1369,6 +1369,11 @@ label {
     padding-bottom: 0px;
   }
 }
+@media (max-width: 858px) {
+  .contactMainContent {
+    padding-top: 285px;
+  }
+}
 @media (max-width: 887px) {
   .contactMainContent {
     padding-top: 270px;
@@ -1382,6 +1387,10 @@ label {
 @media (max-width: 853px) {
   .contactMainContent {
     padding-top: 270px;
+  }
+
+  .products {
+    padding-top: 100px;
   }
 }
 @media (max-width: 760px) {
@@ -1472,6 +1481,11 @@ label {
     top: 30%;
   }
 }
+@media (max-width: 1076px) {
+  .headerImgSecond img {
+    top: 40%;
+  }
+}
 @media (max-width: 520px) {
   .headerImgSecond img {
     top: 30%;
@@ -1479,6 +1493,11 @@ label {
   }
 }
 @media (max-width: 460px) {
+  .headerImgSecond img {
+    top: 35%;
+    width: 60%;
+  }
+
   .commentContent {
     padding-left: 15px;
   }
@@ -1577,12 +1596,12 @@ label {
     padding-top: 0px;
   }
 }
-@media (max-width: 458px) {
+@media (max-width: 450px) {
   .headerImgSecond img {
     position: absolute;
     right: 0px;
-    top: 35%;
-    width: 57%;
+    top: 38%;
+    width: 60%;
   }
 
   .headerImage h1 {
@@ -1686,6 +1705,15 @@ label {
   }
 }
 @media (max-width: 380px) {
+  .headerImgSecond img {
+    top: 52%;
+    width: 60%;
+  }
+
+  .infoContainer .products h2 {
+    font-size: 29px;
+  }
+
   .blogImage img {
     width: 80%;
   }
@@ -1737,10 +1765,15 @@ label {
   .contactSection .wrapper .contactSocial {
     padding-left: 95px;
   }
+
+  .rightDescription .descriptionContainer,
+.leftDescription .descriptionContainer {
+    text-align: left;
+  }
 }
 @media (max-width: 360px) {
   .headerImgSecond img {
-    top: 60%;
+    top: 52%;
   }
 
   .infoContainer .products {
@@ -1837,20 +1870,12 @@ label {
   .contactSection .wrapper .contactLeftContent {
     text-align: center;
     width: 100%;
-    padding-top: 0px;
-  }
-
-  .contactMainContent {
-    padding-top: 0px;
-  }
-
-  .contactSection .wrapper .contactSocial {
-    padding-top: 60px;
-    padding-left: 80px;
+    padding-top: 130px;
   }
 
   .contactRightContent {
     margin-top: -80px;
+    padding-top: 100px;
   }
 
   .contactCommentInput {
@@ -1872,6 +1897,14 @@ label {
   }
 }
 @media (max-width: 340px) {
+  .contactMainContent {
+    padding-top: 145px;
+  }
+
+  .contactRightContent {
+    margin-top: 20px;
+  }
+
   .blogImage img {
     width: 80%;
   }
@@ -1927,6 +1960,10 @@ label {
   .navigation h1 {
     top: 7%;
   }
+
+  .infoContainer .products {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 320px) {
   .headerImgContainer img {
@@ -1943,7 +1980,7 @@ label {
   }
 
   .infoContainer {
-    padding-top: 15px;
+    padding-top: 150px;
   }
   .infoContainer .products h2 {
     font-size: 25px;
@@ -1954,6 +1991,16 @@ label {
 
   footer p {
     font-size: 18px;
+  }
+
+  .contactSection .wrapper .contactLeftContent {
+    text-align: center;
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  .contactRightContent {
+    padding-top: 100px;
   }
 
   .natureTextContainer {

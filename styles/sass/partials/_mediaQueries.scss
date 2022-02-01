@@ -60,7 +60,7 @@ width: 55%;
 }
   
 
-@media (max-width: 956px){
+@media (max-width: 957px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -71,7 +71,7 @@ width: 55%;
   .headerImgSecond img{
     position: absolute;
     right: 0px;
-    top: 60%;
+    top: 50%;
     width: 55%;
   
   }
@@ -260,6 +260,11 @@ width: 55%;
   padding-bottom: 0px;
 }
 }
+@media (max-width: 858px){
+.contactMainContent {
+  padding-top: 285px;
+}
+}
 
 @media (max-width: 887px){
   .contactMainContent {
@@ -277,7 +282,15 @@ width: 55%;
   .contactMainContent {
   padding-top: 270px;
 }
+.products{
+  padding-top: 100px;
 }
+}
+// @media (max-width: 813px){
+//   .headerImgSecond img {
+//   top: 20%;
+// }
+// }
 @media (max-width: 760px){
 .rightDescription .descriptionContainer,
 .leftDescription .descriptionContainer{
@@ -359,6 +372,12 @@ width: 55%;
 }
 
 }
+@media (max-width: 1076px){
+.headerImgSecond img {
+  top: 40%;
+}
+
+}
 @media (max-width: 520px){
   .headerImgSecond img {
   top: 30%;
@@ -366,6 +385,10 @@ width: 55%;
 }
 }
 @media (max-width: 460px){
+  .headerImgSecond img {
+  top: 35%;
+  width: 60%;
+}
   
   .commentContent{
     padding-left: 15px;
@@ -453,13 +476,13 @@ width: 55%;
 
 }
 
-@media (max-width: 458px){
+@media (max-width: 450px){
   
 .headerImgSecond img{
 position: absolute;
 right: 0px;
-top: 35%;
-width: 57%;
+top: 38%;
+width: 60%;
 }
 .headerImage h1{
   font-size: 40px;
@@ -558,6 +581,14 @@ padding-left: 0px;
 }
 
 @media (max-width: 380px){
+  .headerImgSecond img {
+  
+  top: 52%;
+  width: 60%;
+}
+.infoContainer .products h2 {
+  font-size: 29px;
+}
   .blogImage img {
   width: 80%;
 }
@@ -602,11 +633,16 @@ padding-left: 0px;
 .contactSection .wrapper .contactSocial {
   padding-left: 95px;
 }
+.rightDescription .descriptionContainer,
+.leftDescription .descriptionContainer{
+  text-align: left;
+}
 
 }
 @media (max-width: 360px){
+
   .headerImgSecond img{
-    top: 60%;
+    top: 52%;
   }
   .infoContainer .products{
     text-align: start;
@@ -647,7 +683,6 @@ footer p{
   padding: 20px 25px;
 }
 
-
 .foodContainer .descriptionContainer h5 {
   font-size: 27px;
 }
@@ -687,17 +722,12 @@ p{
 .contactSection .wrapper .contactLeftContent {
   text-align: center;
   width: 100%;
-  padding-top: 0px;
+  padding-top: 130px;
 }
-.contactMainContent{
-  padding-top: 0px;
-}
-.contactSection .wrapper .contactSocial {
-  padding-top: 60px;
-  padding-left: 80px;
-}
+
 .contactRightContent {
   margin-top: -80px;
+  padding-top: 100px;
 }
 .contactCommentInput {
   box-shadow: 10px 10px 0px 0px #ffd300;
@@ -716,6 +746,14 @@ p{
 }
 }
 @media (max-width: 340px){
+
+  .contactMainContent {
+  padding-top: 145px;
+}
+.contactRightContent {
+  margin-top: 20px;
+}
+
   .blogImage img {
   width: 80%;
 }
@@ -760,6 +798,10 @@ element {
 .navigation h1{
   top: 7%;
 }
+.infoContainer .products {
+  
+  padding-top: 100px;
+}
 
 }
 @media (max-width: 320px){
@@ -774,7 +816,7 @@ element {
   margin-right: 13px;
 }
 .infoContainer {
-  padding-top: 15px;
+  padding-top: 150px;
   .products h2{
     font-size: 25px;
     i{
@@ -784,6 +826,15 @@ element {
 }
 footer p{
   font-size: 18px;
+}
+
+.contactSection .wrapper .contactLeftContent {
+  text-align: center;
+  width: 100%;
+  padding-top: 120px;
+}
+.contactRightContent {
+  padding-top: 100px;
 }
 .natureTextContainer{
   margin-left: 0px;
