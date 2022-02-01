@@ -1130,59 +1130,7 @@ label {
     width: 55%;
   }
 }
-@media (max-width: 859px) {
-  .checkbtn {
-    display: block;
-  }
-
-  .navigation nav ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #222;
-    top: 54px;
-    left: -100%;
-    text-align: center;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    z-index: 9999;
-  }
-
-  .navigation nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-
-  .navigation nav ul li a {
-    font-size: 20px;
-  }
-
-  a:hover, a.active {
-    background: none;
-    color: #0082e6;
-  }
-
-  #check:checked ~ ul {
-    left: 0;
-  }
-
-  .headerImgSecond img {
-    position: absolute;
-    right: 0px;
-    top: 20%;
-    width: 50%;
-  }
-
-  .headerImage {
-    height: 40vh;
-  }
-
-  .flexContainer {
-    padding-bottom: 0px;
-  }
-}
-@media (max-width: 870px) {
+@media (max-width: 956px) and (max-width: 900px) {
   .navigation h1 {
     position: absolute;
     top: 10%;
@@ -1194,6 +1142,7 @@ label {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-bottom: 0px;
   }
 
   .flexItem {
@@ -1276,13 +1225,6 @@ label {
     padding-top: 5px;
   }
 
-  .flex-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
   .flex-item {
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
@@ -1333,6 +1275,10 @@ label {
     padding-left: 0px;
   }
 
+  .flexcontainer .burgerContainer {
+    padding-bottom: 5px;
+  }
+
   .natureImgContainer {
     width: 45%;
   }
@@ -1348,6 +1294,58 @@ label {
 
   .blackButton {
     margin-top: 20px;
+  }
+}
+@media (max-width: 859px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .navigation nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    top: 54px;
+    left: -100%;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 9999;
+  }
+
+  .navigation nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .navigation nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover, a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  .headerImgSecond img {
+    position: absolute;
+    right: 0px;
+    top: 20%;
+    width: 50%;
+  }
+
+  .headerImage {
+    height: 40vh;
+  }
+
+  .flexContainer {
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 760px) {
@@ -1387,18 +1385,157 @@ label {
   .giftContainer p {
     padding: 0 30px 0 30px;
   }
-}
-@media (max-width: 730px) {
+
   .headerImgSecond img {
-    top: 30%;
+    top: 50%;
   }
 
-  .products {
-    margin-bottom: 30px;
+  .contactMainContent .wrapper {
+    display: block;
+  }
+
+  .contactLeftContent {
+    width: 100%;
+  }
+
+  .contactRightContent {
+    width: 100%;
+    padding-top: 170px;
+  }
+
+  .nature .wrapper {
+    display: block;
+  }
+  .nature .wrapper .natureImgContainer {
+    width: 100%;
+  }
+
+  .nature .natureTextContainer {
+    width: 100%;
+  }
+  .nature .natureTextContainer h3 {
+    padding-top: 20px;
+  }
+
+  .giftContainer {
+    text-align: left;
+    padding-top: 40px;
+  }
+  .giftContainer p {
+    padding: 0px;
   }
 
   .infoContainer {
-    padding-top: 130px;
+    padding-top: 200px;
+  }
+  .infoContainer .products {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .rightDescription .descriptionContainer,
+.leftDescription .descriptionContainer {
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 460px) {
+  .commentContent {
+    padding-left: 15px;
+  }
+
+  .infoContainer .products {
+    text-align: left;
+  }
+
+  .rightDescription .descriptionContainer,
+.leftDescription .descriptionContainer {
+    text-align: left;
+    padding-left: 30px;
+  }
+
+  .giftContainer .wrapper {
+    text-align: left;
+  }
+  .giftContainer .wrapper h3 {
+    text-align: center;
+  }
+
+  .giftContainer p {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .nature .wrapper .natureTextContainer {
+    width: 100%;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+  .nature .wrapper .natureTextContainer h3 {
+    padding: 0px;
+    text-align: left;
+  }
+
+  .natureImgContainer img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .blogImg img {
+    width: 100%;
+    height: 65vh;
+  }
+
+  .employContent {
+    padding: 60px 40px;
+  }
+
+  .giftContainer .blackButton {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .nature .wrapper .blackButton {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .blogImage img {
+    width: 90%;
+    display: block;
+  }
+
+  .employContent h4 {
+    font-size: 34px;
+  }
+
+  .comment {
+    padding: 20px 20px;
+  }
+  .comment h5 {
+    font-size: 35px;
+  }
+
+  .blogFlexContainer {
+    font-size: 18px;
+    display: block;
+  }
+
+  .blogFlexItem {
+    padding: 24px 0px 10px 3px;
+  }
+
+  .contactFlexContainer {
+    display: block;
+  }
+
+  .contactFlexItem {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .contactMainContent {
+    padding-top: 0px;
   }
 }
 @media (max-width: 450px) {
@@ -1479,7 +1616,7 @@ label {
 
   .contactRightContent {
     width: 100%;
-    margin-top: 50px;
+    padding-top: 50px;
     padding-left: 0px;
   }
   .contactRightContent .contactCommentInput {
@@ -1508,29 +1645,57 @@ label {
     height: 50vh;
   }
 }
-@media (max-width: 730px) {
-  .headerImgSecond img {
-    top: 50%;
+@media (max-width: 380px) {
+  .blogImage img {
+    width: 80%;
   }
 
-  .contactMainContent .wrapper {
+  .employContent h4 {
+    font-size: 34px;
+  }
+
+  .comment {
+    padding: 20px 20px;
+  }
+  .comment h5 {
+    font-size: 35px;
+  }
+
+  .blogFlexContainer {
+    font-size: 18px;
     display: block;
   }
 
-  .contactLeftContent {
-    width: 100%;
+  .blogFlexItem {
+    padding: 24px 0px 10px 3px;
+  }
+
+  .contactFlexContainer {
+    display: block;
+  }
+
+  .contactFlexItem {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .contactSection .wrapper .contactLeftContent {
+    padding-top: 0px;
+  }
+
+  .contactMainContent {
+    padding-top: 10px;
+  }
+
+  .contactSection .wrapper .contactLeftContent {
+    padding-top: 0px;
   }
 
   .contactRightContent {
-    width: 100%;
-    padding-top: 170px;
+    padding-top: 0px;
   }
 
-  .nature .wrapper {
-    display: block;
-  }
-  .nature .wrapper .natureImgContainer {
-    width: 100%;
+  .contactSection .wrapper .contactSocial {
+    padding-left: 95px;
   }
 }
 @media (max-width: 360px) {
@@ -1548,12 +1713,41 @@ label {
     font-size: 27px;
   }
 
+  .blogFlexContainer {
+    font-size: 18px;
+    display: block;
+  }
+
+  .blogFlexItem {
+    padding: 24px 0px 10px 3px;
+  }
+
+  .contactFlexContainer {
+    display: block;
+  }
+
+  .contactFlexItem {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .commentTextArea {
+    font-size: 18px;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+
   .nature .wrapper .natureTextContainer {
     width: 90%;
     padding-top: 60px;
   }
   .nature .wrapper .natureTextContainer h3 {
     font-size: 27px;
+  }
+
+  .comment {
+    padding: 20px 25px;
   }
 
   .foodContainer .descriptionContainer h5 {
@@ -1577,8 +1771,12 @@ label {
     font-size: 20px;
   }
 
+  .flexTop {
+    display: block;
+  }
+
   .employContent {
-    padding: 60px 5px;
+    padding: 10px;
   }
   .employContent h4 {
     font-size: 35px;
@@ -1596,7 +1794,7 @@ label {
     height: 70vh;
   }
 
-  contactSection .wrapper .contactLeftContent {
+  .contactSection .wrapper .contactLeftContent {
     text-align: center;
     width: 100%;
     padding-top: 0px;
@@ -1607,7 +1805,7 @@ label {
   }
 
   .contactSection .wrapper .contactSocial {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-left: 80px;
   }
 
@@ -1633,65 +1831,127 @@ label {
     width: 100%;
   }
 }
-@media (max-width: 460px) {
-  .commentContent {
-    padding-left: 15px;
-  }
-
-  .infoContainer .products {
-    text-align: left;
-  }
-
-  .rightDescription .descriptionContainer,
-.leftDescription .descriptionContainer {
-    text-align: left;
-    padding-left: 30px;
-  }
-
-  .giftContainer .wrapper {
-    text-align: left;
-  }
-  .giftContainer .wrapper h3 {
-    text-align: center;
-  }
-
-  .giftContainer p {
-    text-align: left;
-    padding-left: 0px;
-  }
-
-  .nature .wrapper .natureTextContainer {
-    width: 100%;
-    text-align: left;
-    padding-top: 70px;
-    padding-left: 0px;
-  }
-  .nature .wrapper .natureTextContainer h3 {
-    padding: 0px;
-    text-align: left;
-  }
-
-  .natureImgContainer img {
-    width: 100%;
-    height: 50vh;
-  }
-
-  .blogImg img {
-    width: 100%;
-    height: 65vh;
+@media (max-width: 340px) {
+  .blogImage img {
+    width: 80%;
   }
 
   .employContent {
-    padding: 60px 40px;
+    padding: 60px 15px;
+  }
+  .employContent h4 {
+    font-size: 30px;
   }
 
-  .giftContainer .blackButton {
-    font-size: 18px;
-    text-align: center;
+  .blogImage img {
+    width: 80%;
   }
 
-  .nature .wrapper .blackButton {
+  .comment {
+    padding: 20px 20px;
+  }
+
+  .commentInput {
+    padding: 55px 12px;
+  }
+
+  element {
     font-size: 18px;
-    text-align: center;
+  }
+
+  .blogFlexContainer {
+    font-size: 18px;
+    display: block;
+  }
+
+  .blogFlexItem {
+    padding: 24px 0px 10px 3px;
+  }
+
+  .contactFlexContainer {
+    display: block;
+  }
+
+  .contactFlexItem {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .commentTextArea {
+    font-size: 18px;
+  }
+
+  .headerImage h1 {
+    font-size: 35px;
+  }
+
+  .navigation h1 {
+    top: 7%;
+  }
+}
+@media (max-width: 320px) {
+  .headerImgContainer img {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .headerImgSecond img {
+    top: 35%;
+  }
+
+  .checkbtn {
+    margin-right: 13px;
+  }
+
+  .infoContainer {
+    padding-top: 15px;
+  }
+  .infoContainer .products h2 {
+    font-size: 25px;
+  }
+  .infoContainer .products h2 i {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+
+  .natureTextContainer {
+    margin-left: 0px;
+  }
+
+  .commentContent .commentDate {
+    font-size: 20px;
+  }
+
+  .commentContent p {
+    font-size: 18px;
+  }
+
+  .comment h5 {
+    font-size: 30px;
+  }
+
+  .employContent {
+    padding: 60px 15px;
+  }
+  .employContent h4 {
+    font-size: 30px;
+  }
+
+  .blogImage img {
+    width: 80%;
+  }
+
+  .headerImage h1 {
+    font-size: 35px;
+  }
+
+  .navigation h1 {
+    top: 7%;
+  }
+
+  .blogImage img {
+    width: 90%;
   }
 }
