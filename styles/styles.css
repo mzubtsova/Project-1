@@ -1068,6 +1068,24 @@ label {
   transition: 1s ease;
 }
 
+@media (max-width: 1145px) {
+  .headerImgSecond img {
+    position: absolute;
+    top: 38%;
+  }
+
+  .foodContainer .rightImg img {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1137px) {
+  .headerImgSecond img {
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    width: 55%;
+  }
+}
 @media (max-width: 1130px) {
   .headerImgSecond img {
     position: absolute;
@@ -1130,7 +1148,7 @@ label {
     width: 55%;
   }
 }
-@media (max-width: 956px) and (max-width: 900px) {
+@media (max-width: 900px) {
   .navigation h1 {
     position: absolute;
     top: 10%;
@@ -1173,6 +1191,13 @@ label {
     text-align: center;
     padding: 50px 20px;
   }
+  .giftContainer h3 {
+    font-size: 45px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #ffd300;
+    padding-top: 50px;
+  }
 
   .nature {
     padding: 50px 10px;
@@ -1193,20 +1218,11 @@ label {
     width: 100%;
     padding: 40px 20px;
   }
-
   .nature .textContainer h3 {
     font-size: 45px;
     line-height: 67.8px;
     text-transform: uppercase;
     color: #ffd300;
-  }
-
-  .giftContainer h3 {
-    font-size: 45px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #ffd300;
-    padding-top: 50px;
   }
 
   .foodContainer .descriptionContainer {
@@ -1296,6 +1312,12 @@ label {
     margin-top: 20px;
   }
 }
+@media (max-width: 875px) {
+  .contactMainContent .wrapper {
+    padding: 5px;
+    padding-top: 120px;
+  }
+}
 @media (max-width: 859px) {
   .checkbtn {
     display: block;
@@ -1319,7 +1341,6 @@ label {
     margin: 50px 0;
     line-height: 30px;
   }
-
   .navigation nav ul li a {
     font-size: 20px;
   }
@@ -1348,11 +1369,26 @@ label {
     padding-bottom: 0px;
   }
 }
+@media (max-width: 887px) {
+  .contactMainContent {
+    padding-top: 270px;
+  }
+}
+@media (max-width: 873px) {
+  .contactMainContent {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 853px) {
+  .contactMainContent {
+    padding-top: 270px;
+  }
+}
 @media (max-width: 760px) {
   .rightDescription .descriptionContainer,
 .leftDescription .descriptionContainer {
-    text-align: center;
-    padding: 30px 10px;
+    text-align: left;
+    padding-left: 30px;
   }
 
   .infoContainer {
@@ -1362,6 +1398,8 @@ label {
 
   .products {
     padding-top: 50px;
+    margin-bottom: 0px;
+    text-align: left;
   }
 
   .foodImgContainer {
@@ -1428,15 +1466,16 @@ label {
   .infoContainer {
     padding-top: 200px;
   }
-  .infoContainer .products {
-    margin-bottom: 0px;
-    text-align: left;
+}
+@media (max-width: 752px) {
+  .headerImgSecond img {
+    top: 30%;
   }
-
-  .rightDescription .descriptionContainer,
-.leftDescription .descriptionContainer {
-    text-align: left;
-    padding-left: 30px;
+}
+@media (max-width: 520px) {
+  .headerImgSecond img {
+    top: 30%;
+    width: 60%;
   }
 }
 @media (max-width: 460px) {
@@ -1538,7 +1577,7 @@ label {
     padding-top: 0px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 458px) {
   .headerImgSecond img {
     position: absolute;
     right: 0px;
@@ -1578,16 +1617,17 @@ label {
     font-size: 20px;
   }
 
-  .giftContainer {
+  .giftContainer .wrapper {
     padding: 30px 10px;
   }
-  .giftContainer h3 {
+  .giftContainer .wrapper h3 {
     font-size: 35px;
+    text-align: left;
   }
-  .giftContainer p {
+  .giftContainer .wrapper p {
     padding: 1px 0px;
   }
-  .giftContainer .blackButton {
+  .giftContainer .wrapper .blackButton {
     font-size: 20px;
     text-align: center;
   }
@@ -1604,7 +1644,7 @@ label {
   .contactSection .wrapper .contactLeftContent {
     text-align: center;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 220px;
   }
   .contactSection .wrapper .contactSocial {
     padding-top: 60px;
@@ -1616,7 +1656,7 @@ label {
 
   .contactRightContent {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 180px;
     padding-left: 0px;
   }
   .contactRightContent .contactCommentInput {
@@ -1632,12 +1672,12 @@ label {
   }
   .nature .wrapper .natureTextContainer {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .nature .wrapper .natureTextContainer h3 {
     font-size: 35px;
     padding: 0px;
-    text-align: center;
+    text-align: left;
   }
 
   .natureImgContainer {
