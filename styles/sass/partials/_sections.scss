@@ -1,5 +1,7 @@
 
-
+button.red{
+  background-color: red;
+}
 .headerImage{
   width: 100%;
   height: 100vh;
@@ -88,7 +90,9 @@ transform: translate(-2%,-50%);
   h5{
     text-transform: uppercase;
   }
-  button{
+  
+}
+button{
   font-size: 22.4px;
   text-align: center;
   line-height: 41.6px;
@@ -96,7 +100,6 @@ transform: translate(-2%,-50%);
   background-color: $sunflower;
   margin: 30px 4px 4px 4px;
   }
-}
 
 
 .foodContainer {

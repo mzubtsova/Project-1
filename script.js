@@ -1,42 +1,47 @@
 
 // added border color for button
 const buttonElement = document.getElementsByTagName('button');
-for(button of buttonElement){
+for(let button of buttonElement){
     button.style.border = '2px solid black';
 }
+console.log("Hello!");
 
 const blackButtonElement = document.getElementsByClassName('blackButton');
-for (button of blackButtonElement) {
+for (let button of blackButtonElement) {
     button.style.border = '2px solid white';
 }
 // changing color on click
+// ----------------------------------
+const buttons = document.querySelectorAll('button');
+console.log(buttons);
+buttons.forEach((individualButton) => {
+    console.log(individualButton);
+    individualButton.addEventListener('click', () => {
+        individualButton.classList.toggle('red');
+        console.log(individualButton.classList);
+    })
+});
 
-const button = document.querySelectorAll("button");
-const buttonArray = Array.from(button);
-buttonArray[0].addEventListener("click", function () {
-    // console.log(‘i click’);
-    buttonArray[0].style.background = "red";
-})
 
 
-
-const formElement = document.getElementById('contactForm');
+const formElement = document.querySelector('form');
+console.log(formElement);
 formElement.addEventListener('submit', function(event){
     event.preventDefault();
 
-    const nameInput = document.getElementById('text');
-    const emailInput = document.getElementById('email');
+    const nameInput = document.getElementById('userName');
+    const emailInput = document.getElementById('userEmail');
     const userFeedback = document.getElementById('feedback');
 
     const userName = nameInput.value;
     const userEmail = emailInput.value;
-    const userFeedback = userFeedback.value;
+    const userMessage = userFeedback.value;
 
     if (userName === ""){
-        alert ("Please includ your name!");
+        alert ("Please include your name!");
     }else if(userEmail === ""){
         alert('Please include your email!');
-    } else if (userFeedback === "") {
+    } else if (userMessage === "") {
         alert('Please leave us a message. We appreciate your opinion!');
 }else {
     alert('Thank you for message! We will connect you shortly!');
@@ -46,10 +51,8 @@ formElement.addEventListener('submit', function(event){
 }
 })
 
-// Button
-// const btn_01 = document.getElementById('btn_01'); // btn_01 element
-// const toggle_01 = document.querySelector('.toggle_01'); // p tag element
-// btn_01.addEventListener("click", () => toggleButton(toggle_01));
+
+
 
 
 

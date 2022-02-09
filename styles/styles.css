@@ -373,6 +373,10 @@ label.logo {
   display: none;
 }
 
+button.red {
+  background-color: red;
+}
+
 .headerImage {
   width: 100%;
   height: 100vh;
@@ -469,7 +473,8 @@ label.logo {
 .foodContainer h5 {
   text-transform: uppercase;
 }
-.foodContainer button {
+
+button {
   font-size: 22.4px;
   text-align: center;
   line-height: 41.6px;
